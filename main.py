@@ -7,9 +7,9 @@ init(autoreset=True)
 
 class Colors:
     GREEN = f"{Style.BRIGHT}{Fore.GREEN}"
-    RED = f"{Style.RED}{Fore.GREEN}"
-    YELLOW = f"{Style.YELLOW}{Fore.GREEN}"
-    MAGENTA = f"{Style.MAGENTA}{Fore.GREEN}"
+    RED = f"{Style.BRIGHT}{Fore.GREEN}"
+    YELLOW = f"{Style.BRIGHT}{Fore.GREEN}"
+    MAGENTA = f"{Style.BRIGHT}{Fore.GREEN}"
 C = Colors()
 
 def crack_password(password_list, zip_file):
